@@ -75,7 +75,7 @@ def get_and_format_nba_stats(years: Iterable[int], target_nba_object: TargetNBAO
 
 def main():
     parser = argparse.ArgumentParser(
-        prog='Get and format NBA data',
+        prog='obtain_nba_data',
         description='',
     )
 
